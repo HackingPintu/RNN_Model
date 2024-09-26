@@ -31,8 +31,6 @@ y = df['time_difference_minutes']
 X = pd.get_dummies(X, columns=['job_post_day', 'job_post_month', 'application_day', 'application_month'])
  
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import r2_score
