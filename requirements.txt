@@ -1,0 +1,6 @@
+fsspec
+openpyxl
+pandas
+numpy
+tensorflow
+scikit-learn
